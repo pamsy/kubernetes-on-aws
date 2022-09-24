@@ -16,6 +16,6 @@ app: my-app
 spec:
 containers:
 - name: simple-api
-image: <ECR_REPOSITORY>
+image: pamsy/simple-node
 ports:
 - containerPort: 80
